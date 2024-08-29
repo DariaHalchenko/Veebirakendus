@@ -1,0 +1,61 @@
+footer {
+    color: DeepPink; /*teksti värrv*/
+    background-color: LavenderBlush; /*tausta värv*/
+    width: 70%; /*laius*/
+    text-align: right;
+    border: dashed 10pt MistyRose; /*piir - solid, dashed, dotted, double*/
+    border-radius: 60px 60px 60px 60px;
+    padding: 1%;
+    margin: 30px 350px;
+}
+header {
+    color: DeepPink; /*teksti värrv*/
+    background-color: LavenderBlush; /*tausta värv*/
+    width: 70%; /*laius*/
+    text-align: right;
+    border: dashed 10pt MistyRose; /*piir - solid, dashed, dotted, double*/
+    border-radius: 60px 60px 60px 60px;
+    padding: 1%;
+    margin: 30px 350px;
+    background-image: url("Nimetu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+main section {
+    background-color: Linen;
+    border: dotted 7pt Pink;
+    margin:30px 750px;
+    width: 30%;
+    padding: 2%;
+}
+main section h2 {
+    color: MediumOrchid;
+    font-variant: all-petite-caps; /*normal*/
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none; /*loetelu markerid*/
+    margin: 30px 550px;
+    padding: 0;
+    width: 50%;
+    overflow: hidden; /*kuidas näidata nav elemendid*/
+    background-color: Plum;
+}
+
+nav li {
+    float: inside;
+}
+
+nav li a {
+    display: block; /*ühe realine navbar*/
+    color: MintCream;
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none; /*underline*/
+}
+
+nav li a:hover { /*link fookuses*/
+    background-color: Orchid;
+}
