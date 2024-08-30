@@ -4,19 +4,18 @@ footer {
     width: 70%; /*laius*/
     text-align: right;
     border: dashed 10pt MistyRose; /*piir - solid, dashed, dotted, double*/
+    margin:10px 450px;
     border-radius: 60px 60px 60px 60px;
-    padding: 1%;
-    margin: 30px 350px;
 }
 header {
     color: DeepPink; /*teksti värrv*/
     background-color: LavenderBlush; /*tausta värv*/
-    width: 70%; /*laius*/
+    width: 80%; /*laius*/
     text-align: right;
     border: dashed 10pt MistyRose; /*piir - solid, dashed, dotted, double*/
     border-radius: 60px 60px 60px 60px;
     padding: 1%;
-    margin: 30px 350px;
+    margin:10px 450px;
     background-image: url("Nimetu.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -24,7 +23,7 @@ header {
 }
 main section {
     background-color: Linen;
-    border: dotted 7pt Pink;
+    border: dotted 8pt Pink;
     margin:30px 750px;
     width: 30%;
     padding: 2%;
@@ -37,8 +36,8 @@ main section h2 {
 
 nav ul {
     list-style-type: none; /*loetelu markerid*/
-    margin: 30px 550px;
-    padding: 0;
+    margin: 30px 650px;
+    padding: 0%;
     width: 50%;
     overflow: hidden; /*kuidas näidata nav elemendid*/
     background-color: Plum;
