@@ -1,0 +1,53 @@
+table{
+    border: 1px solid black; /*tabelipiir musta värviga ja paksus 1p*/
+    width: 50%; /*laius*/
+}
+table td{
+    border: 2px solid black;
+    text-align: center;
+}
+table#t1{
+    border: 5px solid greenyellow;
+    width: 50%;
+}
+table#t2{
+    border: 5px dotted rebeccapurple;
+    width: 40%;
+}
+table#t3{
+    border: 5px dotted red;
+    width: 30%;
+}
+table#t4 {
+    border: 5px solid darkmagenta;
+    width: 30%;
+}
+table#t5 {
+    border: 1px solid black; /*tabeli piir musta värviga paksus 1 px*/
+    width: 30%; /*laius*/}
+td.kollane{
+    background-color: yellow;
+}
+td.olive{
+    background-color: olive;
+}
+td.dodgerblue{
+    background-color: dodgerblue;
+}
+td.coral{
+    background-color: coral;
+}
+td.darkcyan{
+    background-color: darkcyan;
+}
+td.palevioletred{
+    background-color: palevioletred;
+}
+td.crimson{
+    background-color: crimson;
+}
+td.lightcoral{
+    background-color: lightcoral;
+}
+
+

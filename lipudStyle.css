@@ -1,0 +1,91 @@
+#eesti{
+    width: 330px;
+    height: 210px;
+    border: 1px solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+#eesti tr:nth-child(1){/*1.rida*/
+    background-color: darkblue;
+}
+#eesti tr:nth-child(2){/*2.rida*/
+    background-color: black;
+}
+#eesti tr:nth-child(3){/*3.rida*/
+    background-color: white;
+}
+/*Rootsi lipp*/
+#rootsi{
+    width: 330px;
+    height: 210px;
+    border: 1px solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 60px;
+    left: 370px;
+}
+#rootsi tr:nth-child(1) td:nth-child(1),
+#rootsi tr:nth-child(3) td:nth-child(1){
+    background-color: blue;
+    width: 100px;
+}
+#rootsi tr:nth-child(1) td:nth-child(3),
+#rootsi tr:nth-child(3) td:nth-child(3){
+    background-color: blue;
+    width: 180px;
+}
+#rootsi tr:nth-child(1) td:nth-child(2),
+#rootsi tr:nth-child(3) td:nth-child(2){
+    background-color: yellow;
+    height: 45px;
+}
+#rootsi tr:nth-child(2){
+    background-color: yellow;
+    height: 45px;
+}
+#itaalia{
+    width: 330px;
+    height: 210px;
+    border: 1px solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 320px;
+    left: 20px;
+}
+#itaalia td{
+    width: 110px;
+    height: 210px;
+}
+#itaalia td:nth-child(1){
+    background-color: green;
+}
+#itaalia td:nth-child(2){
+    background-color: white;
+}
+#itaalia td:nth-child(3){
+    background-color: red;
+}
+#belgia{
+    width: 330px;
+    height: 210px;
+    border: 1px solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 320px;
+    left: 370px;
+}
+#belgia td{
+    width: 110px;
+    height: 210px;
+}
+#belgia td:nth-child(1){
+    background-color: black;
+}
+#belgia td:nth-child(2){
+    background-color: yellow;
+}
+#belgia td:nth-child(3){
+    background-color: red;
+}
